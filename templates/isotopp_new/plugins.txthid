@@ -1,0 +1,28 @@
++-------------------------------------------------------------------------+-----------+------------+
+| name                                                                    | placement | sort_order |
++-------------------------------------------------------------------------+-----------+------------+
+| @serendipity_quicksearch_plugin:43b82f4a41dc076e3d837fcdfcfbfbb5        | right     |          3 |
+| @serendipity_archives_plugin:d39523650a09adcda3c6111822d42c12           | right     |          8 |
+| @serendipity_syndication_plugin:c3403979b9267febefbaed765c4179ff        | right     |         10 |
+| @serendipity_html_nugget_plugin:1f0d19918b20bf63aeab30ecde6e39ba        | right     |          1 |
+| @serendipity_categories_plugin:113b61a477113d6ad4a9b86b4e6d33e1         | right     |          9 |
+| serendipity_plugin_comments:be0b4c516c1d5fabfab9951fe8941d22            | right     |          6 |
+| serendipity_event_xhtmlcleanup:85ef6fc7eb9338484d01fae61dc86e8c         | event     |         16 |
+| serendipity_event_s9ymarkup:9885cf1456c48d19f3792cf5ba66e846            | event     |         13 |
+| serendipity_event_weblogping:fc313c8985d5557e9a15d9f8675e2482           | event     |         20 |
+| serendipity_event_freetag:6eceae270cd2fc717c08796e72824b33              | event     |         19 |
+| serendipity_event_spartacus:674cf51b175524aedae06f6ca22d0b47            | event     |         22 |
+| serendipity_event_nl2br:fb707be91c52a89a1a7695dc05c3efe7                | event     |         15 |
+| serendipity_event_xmlrpc:cafb01b37dca0d735f6abc2b55a7d00b               | event     |         24 |
+| serendipity_plugin_entrylinks:693fed7e9948f4fcb845940df7a01576          | right     |          5 |
+| serendipity_event_bbcode:2762edd7b330ce2f66ddf2c45a36806e               | event     |         14 |
+| serendipity_event_dashboard:c2e2e1d01121a04c325ef509476583a9            | event     |         25 |
+| serendipity_event_browsercompatibility:267ebb68956a9170fbda53d3cae617a6 | event     |         17 |
+| serendipity_event_head_nugget:fc78fb1fa8e9177c5e680448ddc0f1a9          | event     |         18 |
+| serendipity_event_google_sitemap:4a1a04b4eb2072552811cd44a8909cbb       | event     |         21 |
+| serendipity_plugin_freetag:d8a1da474cdde222028b69e448ff416b             | right     |          7 |
+| serendipity_event_spamblock:bf3a642856582aa8d0b1cb207c5d9035            | event     |         11 |
+| @serendipity_html_nugget_plugin:19de3a06b51702edd3f33682beee2e2d        | right     |          4 |
+| serendipity_event_statistics:ad2ee78b6ca8425efdf5d2de5083f0b2           | event     |         23 |
+| serendipity_event_entryproperties:1da455ac177bf35fba092eb5dc896fcf      | event     |         12 |
++-------------------------------------------------------------------------+-----------+------------+

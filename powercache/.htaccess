@@ -1,0 +1,2 @@
+RewriteEngine Off
+ErrorDocument 404 /cvs/serendipity/koehntopp/powercache/create.php

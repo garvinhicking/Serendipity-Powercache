@@ -1,0 +1,38 @@
+1. Anpassung an index.tpl für JS-Loader
+2. Anpassung an sidebar.tpl für JS-Loader
+
+3. Verzeichnis /powercache (writable)
+3.1 .htaccess mit Umleitungen
+3.2 create.php für Wrapper zum Erzeugen
+
+4. Anpassung in s9y, Permalinkpfade:
+    powercache/archives/%id%-%title%.html
+    powercache/authors/%id%-%realname%
+    powercache/categories/%id%-%name%
+    powercache/feeds/categories/%id%-%name%.rss
+    powercache/feeds/authors/%id%-%realname%.rss
+    powercache/archives
+    powercache/archive
+    powercache/categories
+    powercache/authors
+    unsubscribe
+    delete
+    approve
+    powercache/feeds
+    plugin
+    admin
+    search
+    comments
+
+5. invalidate.php zum derzeit manuellen Aufrufen des Cache-Purgens
+
+----------
+
+Grundprinzip: Alle Requests mit dem präfix powercache/XXX werden an das normale s9y weitergereicht als wäre es ein Request ans dynamische /XXX.
+.htaccess in powercache sorgt für die Einbindung des s9y frameworks, die Anpassung der permalinks in s9y selbst sorgt dafür, dass s9y die URLs als gültig erkennt.
+Die Ergebnisse werden in die Datei in powercache/ abgelegt, so dass sobald die Datei existiert kein Glue mehr ausgeführt werden muss.
+
+Problem ist derzeit noch die invalidierung des Caches, das muss derzeit noch manuell geschehen. In Zukunft müsste er beim erzeugen neuer Einträge invalidiert werden, und bei neuen kommentaren.
+Einzelne Invalidierung ist komplexer, da man nie weiß welche Inhalte betroffen sind; bei einem neuen Kommentar könnten alle Seitenleistenelemente betroffen sein.
+
+Das löschen des kompletten Caches bei einem neuen Eintrag köntne im Filesystem evtl. lange rummöderln, muss man testen.

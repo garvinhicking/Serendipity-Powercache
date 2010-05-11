@@ -1,0 +1,4 @@
+Name: Isotopp New Style
+Author: Kristian K&ouml;hntopp
+Date: 2005-04-13
+Require Serendipity: 0.8
