@@ -1,3 +1,18 @@
 Proof of Concept, playground, whatever.
 
 Contributions welcome, of course.
+
+The relevant code in this checkout mainly is:
+
+* powercache/create.php
+* powercache/invalidate.php
+* powercache/.htaccess
+* templates/isotopp_new/config.inc.php
+* templates/isotopp_new/sidebar.tpl
+* templates/isotopp_new/index.tpl
+
+More ground setup info on templates/isotopp_new/powercache.txt
+
+
+
+
